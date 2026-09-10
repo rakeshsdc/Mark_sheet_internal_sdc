@@ -5,6 +5,10 @@ from marksheet_core import parse_marks_docx, compute_marks, generate_marksheet, 
 st.set_page_config(page_title="Mark Sheet Generator", page_icon="📝", layout="centered")
 
 st.title("📝 Mark Sheet Generator")
+st.caption(
+    "Developed by Dr. Rakesh Chandran S. B., IQAC Coordinator, S. D. College, Alappuzha. "
+    "An IQAC SDC Initiative."
+)
 st.write(
     "Upload the student marks list (.docx with **Sl.No, Name, Marks** columns), "
     "fill in the course details, and generate a formatted mark sheet — out of **25** marks, "
